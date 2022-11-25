@@ -7,14 +7,16 @@
     tools:context=".MainActivity">
 
     <TableLayout
-        android:layout_width="402dp"
-        android:layout_height="178dp"
+        android:id="@+id/tableLayout2"
+        android:layout_width="398dp"
+        android:layout_height="137dp"
         android:layout_marginStart="3dp"
-        android:layout_marginEnd="3dp"
+        android:layout_marginEnd="10dp"
         android:layout_marginBottom="9dp"
         app:layout_constraintBottom_toTopOf="@+id/tableLayout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent">
+
 
         <TableRow
             android:layout_width="match_parent"
@@ -61,7 +63,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="170dp"
-                android:text="TextView" />
+                android:text="@string/Jabon2" />
         </TableRow>
 
         <TableRow
@@ -83,7 +85,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="170dp"
-                android:text="TextView" />
+                android:text="@string/Shampoo2" />
         </TableRow>
 
         <TableRow
@@ -105,7 +107,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="170dp"
-                android:text="TextView" />
+                android:text="@string/Pasta2" />
         </TableRow>
 
         <TableRow
@@ -127,8 +129,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="170dp"
-                android:text="TextView" />
+                android:text="@string/Detergenete2" />
         </TableRow>
+
 
     </TableLayout>
 
@@ -136,9 +139,109 @@
         android:id="@+id/tableLayout"
         android:layout_width="411dp"
         android:layout_height="201dp"
-        android:layout_marginBottom="320dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="356dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"/>
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" >
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="3dp">
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="175dp"
+                android:textColor="@color/teal_700"
+                android:text="@string/Subtotal" />
+
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="60dp"
+                android:text="@string/Subtotal2" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="3dp">
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="175dp"
+                android:textColor="@color/teal_700"
+                android:text="@string/Costo" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="60dp"
+                android:text="@string/Costo2" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="3dp">
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="175dp"
+                android:textColor="@color/teal_700"
+                android:text="@string/Cupon" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="60dp"
+                android:text="@string/Cupon2" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="3dp">
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="175dp"
+                android:textColor="@color/teal_700"
+                android:text="@string/Total" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="60dp"
+                android:text="@string/Total2" />
+        </TableRow>
+    </TableLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
