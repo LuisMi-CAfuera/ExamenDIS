@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="Producto">Producto</string>
+    <string name ="Subtotal">Subtotal</string>
+    <string name ="Total">Total</string>
+    <string name ="Jabon">Jabon de manos x1</string>
+    <string name="Shampoo">Shampoo Monster x1</string>
+    <string name="Pasta">Pasta Duria x2</string>
+    <string name="Detergenete">Detergente Limpiadin x1</string>
+    <string name="Cupon">Cupon</string>
+    <string name="Costo">Costo de envio</string>
+    <string name="Jabon2">$2</string>
+    <string name="Shampoo2">$10</string>
+    <string name="Pasta2">$18</string>
+    <string name="Detergenete2">$13,4</string>
+    <string name="Cupon2">-$5</string>
+    <string name="Costo2">$10</string>ç
+    <string name="Total2">$48,4</string>
+    <string name="Subtotal2">$43,4</string>
+</resources>
